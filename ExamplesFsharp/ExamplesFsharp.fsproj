@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="RecordTypes.fs" />
+    <Compile Include="TypeProviders.fs" />
+    <Compile Include="Unit.fs" />
+    <Compile Include="UnionTypes.fs" />
+    <Compile Include="ActivePatterns.fs" />
+    <Compile Include="ComputationExpressions.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
